@@ -1,7 +1,9 @@
 # Color Loot (a.k.a cloot)
 
 Color Loot provides rarity data on chain to Loot.
+
 Contracts can access Loot rarity data on chain now.
+
 Color Loot does not create another Loot, it is an extension to Loot.
 
 [Github](https://github.com/colorloot/colorloot)
