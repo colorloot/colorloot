@@ -14,14 +14,14 @@ Color Loot does not create another Loot, it is an extension to Loot.
 The Loot community is working hard to create exciting features to Loot, one of the important tools
 is Loot Rarity.
 
-There are many awesone projects provide off-chain tools for Loot Rarity, i.e. chrome plugin, svg enhancement, JS SDK, users and developers can
+There are many awesome projects provide off-chain tools for Loot Rarity, i.e. chrome plugin, svg enhancement, JS SDK, users and developers can
 use them to check how rarity a Loot is and show different colors in SVG for each rarity, i.e. Common, Uncommon, Rare, Epic, Legendary, Mythic.
 
 Howerver, all the tools are off-chain, contracts cannot access Loot rarity on chain, the rarity data of Loot is really useful, i.e. games building upon Loot want to get the power of Loot items which depend on the rarity of each item, yield farming contracts want to calculate the power of a Loot token, and so on.
 
-What Color Loot privides is the On-Chain rarity data to Loot, contracts can access Loot Rarity from Colot Loot contract with the same token id too Loot.
+What Color Loot privides is the On-Chain rarity data to Loot, contracts can access Loot Rarity from Color Loot contract with the same token id to Loot.
 
-For each Loot token, we create correspoding Color Loot token to it. When the total supply of Color Loot is equal to Loot (currently 7,779), Color Loot will return the exact rarity of Loot. Rarity data will change when new Color Loot minted. The total supply of Color Loot is equal to OG Loot, which is 8,000.
+For each Loot token, we create corresponding Color Loot token to it. When the total supply of Color Loot is equal to Loot (currently 7,779), Color Loot will return the exact rarity of Loot. Rarity data will change when new Color Loot minted. The total supply of Color Loot is equal to OG Loot, which is 8,000.
 
 ## How to mint Color Loot
 
@@ -54,7 +54,7 @@ function getNeck(uint256 tokenId) public view returns (string memory);
 function getRing(uint256 tokenId) public view returns (string memory);
 ```
 
-Colot Loot also provides method to get all item names in one call:
+Color Loot also provides method to get all item names in one call:
 ```
 function itemNames(uint256 tokenId) public view returns (ItemNames memory);
 ```
