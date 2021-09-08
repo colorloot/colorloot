@@ -17,9 +17,9 @@ is Loot Rarity.
 There are many awesome projects provide off-chain tools for Loot Rarity, i.e. chrome plugin, svg enhancement, JS SDK, users and developers can
 use them to check how rarity a Loot is and show different colors in SVG for each rarity, i.e. Common, Uncommon, Rare, Epic, Legendary, Mythic.
 
-Howerver, all the tools are off-chain, contracts cannot access Loot rarity on chain, the rarity data of Loot is really useful, i.e. games building upon Loot want to get the power of Loot items which depend on the rarity of each item, yield farming contracts want to calculate the power of a Loot token, and so on.
+However, all the tools are off-chain, contracts cannot access Loot rarity on chain, the rarity data of Loot is really useful, i.e. games building upon Loot want to get the power of Loot items which depend on the rarity of each item, yield farming contracts want to calculate the power of a Loot token, and so on.
 
-What Color Loot privides is the On-Chain rarity data to Loot, contracts can access Loot Rarity from Color Loot contract with the same token id to Loot.
+What Color Loot provides is the On-Chain rarity data to Loot, contracts can access Loot Rarity from Color Loot contract with the same token id to Loot.
 
 For each Loot token, we create corresponding Color Loot token to it. When the total supply of Color Loot is equal to Loot (currently 7,779), Color Loot will return the exact rarity of Loot. Rarity data will change when new Color Loot minted. The total supply of Color Loot is equal to OG Loot, which is 8,000.
 
