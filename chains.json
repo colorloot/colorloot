@@ -1,0 +1,188 @@
+[
+  {
+    "chainId": 1,
+    "chainName": "eth",
+    "name": "Ethereum",
+    "mainnet": true,
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "rpc": ["https://api.mycryptoapi.com/eth"],
+    "explorers": {
+      "name": "etherscan",
+      "url": "https://etherscan.io"
+    },
+    "infoURL": "https://ethereum.org",
+    "iconURL": "./assets/images/crypto/ETH.svg"
+  },
+  {
+    "chainId": 4,
+    "chainName": "rinkeby",
+    "mainnet": false,
+    "name": "ETH Rinkeby Testnet",
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "rpc": ["https://rinkeby.infura.io/v3/${INFURA_API_KEY}"],
+    "explorers": {
+      "name": "etherscan",
+      "url": "https://rinkeby.etherscan.io"
+    },
+    "infoURL": "https://www.rinkeby.io",
+    "iconURL": "./assets/images/crypto/ETH.svg"
+  },
+  {
+    "chainId": 128,
+    "chainName": "heco",
+    "name": "Huobi ECO Chain",
+    "mainnet": true,
+    "nativeCurrency": {
+      "name": "HECO HT",
+      "symbol": "HT",
+      "decimals": 18
+    },
+    "rpc": ["https://http-mainnet.hecochain.com"],
+    "explorers": {
+      "name": "hecoinfo",
+      "url": "https://hecoinfo.com"
+    },
+    "infoURL": "https://www.hecochain.com",
+    "iconURL": "./assets/images/crypto/HECO.svg"
+  },
+  {
+    "chainId": 256,
+    "chainName": "heco_test",
+    "name": "HECO Testnet",
+    "mainnet": false,
+    "nativeCurrency": {
+      "name": "HT Test Token",
+      "symbol": "HT",
+      "decimals": 18
+    },
+    "rpc": ["https://http-testnet.hecochain.com"],
+    "explorers": {
+      "name": "hecoinfo",
+      "url": "https://testnet.hecoinfo.com"
+    },
+    "infoURL": "https://www.hecochain.com",
+    "iconURL": "./assets/images/crypto/HECO.svg"
+  },
+  {
+    "chainId": 56,
+    "chainName": "bsc",
+    "mainnet": true,
+    "name": "Binance Smart Chain",
+    "nativeCurrency": {
+      "name": "Binance Chain Native Token",
+      "symbol": "BNB",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://bsc-dataseed1.binance.org",
+      "https://bsc-dataseed2.binance.org",
+      "https://bsc-dataseed3.binance.org",
+      "https://bsc-dataseed4.binance.org",
+      "https://bsc-dataseed1.defibit.io",
+      "https://bsc-dataseed2.defibit.io",
+      "https://bsc-dataseed3.defibit.io",
+      "https://bsc-dataseed4.defibit.io",
+      "https://bsc-dataseed1.ninicoin.io",
+      "https://bsc-dataseed2.ninicoin.io",
+      "https://bsc-dataseed3.ninicoin.io",
+      "https://bsc-dataseed4.ninicoin.io"
+    ],
+    "explorers": {
+      "name": "bscscan",
+      "url": "https://bscscan.com"
+    },
+    "infoURL": "https://www.binance.org",
+    "iconURL": "./assets/images/crypto/BSC.svg"
+  },
+  {
+    "chainId": 97,
+    "chainName": "bsc_test",
+    "mainnet": false,
+    "name": "BSC Testnet",
+    "nativeCurrency": {
+      "name": "Binance Chain Native Token",
+      "symbol": "tBNB",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://data-seed-prebsc-1-s1.binance.org:8545",
+      "https://data-seed-prebsc-2-s1.binance.org:8545",
+      "https://data-seed-prebsc-1-s2.binance.org:8545",
+      "https://data-seed-prebsc-2-s2.binance.org:8545",
+      "https://data-seed-prebsc-1-s3.binance.org:8545",
+      "https://data-seed-prebsc-2-s3.binance.org:8545"
+    ],
+    "faucets": ["https://testnet.binance.org/faucet-smart"],
+    "explorers": {
+      "name": "bscscan-testnet",
+      "url": "https://testnet.bscscan.com"
+    },
+    "infoURL": "https://testnet.binance.org/",
+    "iconURL": "./assets/images/crypto/BSC.svg"
+  },
+  {
+    "chainId": 65,
+    "chainName": "okexchain_test",
+    "mainnet": false,
+    "name": "OKExChain Testnet",
+    "nativeCurrency": {
+      "name": "OKExChain Global Utility Token in testnet",
+      "symbol": "OKT",
+      "decimals": 18
+    },
+    "rpc": ["https://exchaintestrpc.okex.org"],
+    "faucets": ["https://www.okex.com/drawdex"],
+    "explorers": {
+      "name": "exchain",
+      "url": "https://okchain"
+    },
+    "infoURL": "https://www.okex.com/okexchain",
+    "iconURL": "./assets/images/crypto/OKB.svg"
+  },
+  {
+    "chainId": 66,
+    "chainName": "okexchain",
+    "mainnet": true,
+    "name": "OKExChain Mainnet",
+    "nativeCurrency": {
+      "name": "OKExChain Global Utility Token",
+      "symbol": "OKT",
+      "decimals": 18
+    },
+    "rpc": ["https://exchainrpc.okex.org"],
+    "faucets": [],
+    "explorers": {
+      "name": "exchain",
+      "url": "https://okchain"
+    },
+    "infoURL": "https://www.okex.com/okexchain",
+    "iconURL": "./assets/images/crypto/OKB.svg"
+  },
+  {
+    "chainId": 31337,
+    "chainName": "hardhat",
+    "mainnet": false,
+    "name": "Hardhat",
+    "nativeCurrency": {
+      "name": "Hardhat Token",
+      "symbol": "HDT",
+      "decimals": 18
+    },
+    "rpc": ["http://localhost:8545"],
+    "faucets": [],
+    "explorers": {
+      "name": "exchain",
+      "url": ""
+    },
+    "infoURL": "https://www.okex.com/okexchain",
+    "iconURL": "./assets/images/crypto/OKB.svg"
+  }
+]
