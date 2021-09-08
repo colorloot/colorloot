@@ -7,6 +7,7 @@ Contracts can access Loot rarity of Loot on chain now.
 Color Loot does not create another Loot, it is an extension to Loot.
 
 [Etherscan](https://etherscan.io/address/0xab7f42a1a64f0f54d5428ab5e1243785bce3fcb3)
+
 [OpenSea](https://opensea.io/collection/colorloot)
 
 ## Why is Color Loot useful?
