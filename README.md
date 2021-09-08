@@ -1,10 +1,10 @@
 # Color Loot (a.k.a cloot)
 
 Color Loot provides rarity data on chain to Loot.
-
-Contracts can access Loot rarity of Loot on chain now.
-
+Contracts can access Loot rarity data on chain now.
 Color Loot does not create another Loot, it is an extension to Loot.
+
+[Github](https://github.com/colorloot/colorloot)
 
 [Etherscan](https://etherscan.io/address/0xab7f42a1a64f0f54d5428ab5e1243785bce3fcb3)
 
@@ -15,7 +15,7 @@ Color Loot does not create another Loot, it is an extension to Loot.
 The Loot community is working hard to create exciting features to Loot, one of the important tools
 is Loot Rarity.
 
-There are many awesome projects provide off-chain tools for Loot Rarity, i.e. chrome plugin, svg enhancement, JS SDK, users and developers can
+There are many awesome projects provide off-chain tools for Loot Rarity, i.e. Chrome plugin, SVG enhancement, JS SDK, users and developers can
 use them to check how rarity a Loot is and show different colors in SVG for each rarity, i.e. Common, Uncommon, Rare, Epic, Legendary, Mythic.
 
 However, all the tools are off-chain, contracts cannot access Loot rarity on chain, the rarity data of Loot is really useful, i.e. games building upon Loot want to get the power of Loot items which depend on the rarity of each item, yield farming contracts want to calculate the power of a Loot token, and so on.
@@ -36,7 +36,7 @@ For LootAvatars, please use `mintWithAvatar` or `multiMintWithAvatars` on ethers
 
 For public mint, please use `mint` or `multiMint` on etherscan, input the price, each token with price 0.05Ξ.
 
-## Developr Guide
+## Developer Guide
 
 Access Loot rarity data from Color Loot:
 
