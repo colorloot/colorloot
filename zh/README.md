@@ -37,9 +37,9 @@ Discord
 ![loot-rarity](../loot-rarity.png)
 
 其中：
-灰色：Common（普通）
-绿色：Uncommon（不普通）
-蓝色：Rare（稀有）
-紫色：Epic（史诗）
-黄色：Legendary（传奇）
-粉色：Mythic（神话）
+* 灰色：Common（普通）
+* 绿色：Uncommon（不普通）
+* 蓝色：Rare（稀有）
+* 紫色：Epic（史诗）
+* 黄色：Legendary（传奇）
+* 粉色：Mythic（神话）
