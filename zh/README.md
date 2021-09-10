@@ -1,3 +1,5 @@
+![Color Loot](../banner.png)
+
 # Color Loot
 
 ## Color Loot 是什么？
@@ -32,7 +34,7 @@ Discord
 
 根据稀有度的计算方法，所形成的Color Loot展示如下：
 
-![loot-rarity](./loot-rarity.png)
+![loot-rarity](../loot-rarity.png)
 
 其中：
 灰色：Common（普通）
